@@ -12,10 +12,60 @@ cd EXO-MCsampleProductions
 python setup.py
 ```
 
-*** When you execute the setup.py command from the previous guide the default repository for MiniAODv1 and NanoAODv2 will be generated, to have the MiniAODv2 and NanoAODv9 follow this instruction***
+**When you execute the setup.py command from the previous guide the default repository for MiniAODv1 and NanoAODv2 will be generated, to have the MiniAODv2 and NanoAODv9 follow this instruction**
 
 ```
 cd FullSimulation/RunIISummer20UL18
 scram project -n MiniAOD__CMSSW_10_6_20 CMSSW CMSSW_10_6_20
 scram project -n NanoAODv9__CMSSW_10_6_20 CMSSW CMSSW_10_6_20
 ```
+
+Follow the instruction on the guide to create a new csv file (there are also some csv example here). 
+
+
+### NanoAOD modification for LQ
+To save the LQ particle in the NanoAOD files do
+```
+cd NanoAODv9__CMSSW_10_6_20/src
+git cms-addpkg PhysicsTools/NanoAOD
+cd this_repo
+cp genparticles_cff.py path_to/NanoAODv9__CMSSW_10_6_20/src/PhysicsTools/NanoAOD/python/
+cp common_cff.py path_to/NanoAODv9__CMSSW_10_6_20/src/PhysicsTools/NanoAOD/python/
+cd path_to/NanoAODv9__CMSSW_10_6_20/src
+cmsenv
+scram b
+```
+
+### MiniAOD modification to store PPS info
+To Save the PPS information in the MiniAOD
+```
+cd path_to/MiniAOD__CMSSW_10_6_20/src
+git cms-addpkg Validation/CTPPS
+cd this_repo
+cp CTPPSDirectProtonSimulation.cc path_to/MiniAOD__CMSSW_10_6_20/src/Validation/CTPPS/plugins
+cp ctppsDirectProtonSimulation_cfi.py path_to/MiniAOD__CMSSW_10_6_20/src/Validation/CTPPS/python
+cp test_addbranches_cfg.py path_to/MiniAOD__CMSSW_10_6_20/src/
+cd path_to/MiniAOD__CMSSW_10_6_20/src
+cmsenv
+scram b
+```
+
+modify the test_addbranches_cfg.py with the name of the file you want store the PPS info and then run
+```
+cmsRun test_addbranches_cfg.py
+```
+
+### NanoAOD modification to store PPS info
+To store the PPS info in the NanoAOD files
+```
+cd path_to/NanoAODv9__CMSSW_10_6_20/src
+cp nano_cff.py path_to/NanoAODv9__CMSSW_10_6_20/src/PhysicsTools/NanoAOD/python/
+cmsenv
+scram b
+```
+
+
+
+
+
+
