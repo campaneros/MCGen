@@ -21,7 +21,12 @@ scram project -n NanoAODv9__CMSSW_10_6_20 CMSSW CMSSW_10_6_20
 ```
 
 Follow the instruction on the guide to create a new csv file (there are also some csv example here). 
+###### For SIM step
+```
+cp skeleton/submit_crab_SIM.py path_to/SIM__CMSSW_10_6_17_patch1/src/skeleton/submit_crab.py
+```
 
+**Then create a file with a list of all the root files in the repository create by the config_SIM.py step (one in the folder of every sample). The file list has to be REQUESTNAME.list, where REQUESTNAME is the name given before the comma in the .csv file. The file path in has to be:** ***root://xrootd-cms.infn.it///path_to_single_file***
 
 ### NanoAOD modification for LQ
 To save the LQ particle in the NanoAOD files do
