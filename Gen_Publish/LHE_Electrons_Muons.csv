@@ -1,0 +1,12 @@
+#SingleLQ_ueLQue_M1000_Lambda0p1,/afs/cern.ch/work/m/mcampana/Lepto/LQGen,/eos/cms/store/group/phys_exotica/lq-LQ-lq/GEN,singleLQ_13TeV_Pow_Herwig7_cfg.py,1000
+#SingleLQ_ueLQue_M1000_Lambda1p0,/afs/cern.ch/work/m/mcampana/Lepto/LQGen,/eos/cms/store/group/phys_exotica/lq-LQ-lq/GEN,singleLQ_13TeV_Pow_Herwig7_cfg.py,1000
+#SingleLQ_ueLQue_M2000_Lambda0p1,/afs/cern.ch/work/m/mcampana/Lepto/LQGen,/eos/cms/store/group/phys_exotica/lq-LQ-lq/GEN,singleLQ_13TeV_Pow_Herwig7_cfg.py,1000
+#SingleLQ_ueLQue_M2000_Lambda1p0,/afs/cern.ch/work/m/mcampana/Lepto/LQGen,/eos/cms/store/group/phys_exotica/lq-LQ-lq/GEN,singleLQ_13TeV_Pow_Herwig7_cfg.py,1000
+#SingleLQ_ueLQue_M3000_Lambda0p1,/afs/cern.ch/work/m/mcampana/Lepto/LQGen,/eos/cms/store/group/phys_exotica/lq-LQ-lq/GEN,singleLQ_13TeV_Pow_Herwig7_cfg.py,1000
+#SingleLQ_ueLQue_M3000_Lambda1p0,/afs/cern.ch/work/m/mcampana/Lepto/LQGen,/eos/cms/store/group/phys_exotica/lq-LQ-lq/GEN,singleLQ_13TeV_Pow_Herwig7_cfg.py,1000
+#SingleLQ_umuLQumu_M1000_Lambda0p1,/afs/cern.ch/work/m/mcampana/Lepto/LQGen,/eos/cms/store/group/phys_exotica/lq-LQ-lq/GEN,singleLQ_13TeV_Pow_Herwig7_cfg.py,1000
+#SingleLQ_umuLQumu_M1000_Lambda1p0,/afs/cern.ch/work/m/mcampana/Lepto/LQGen,/eos/cms/store/group/phys_exotica/lq-LQ-lq/GEN,singleLQ_13TeV_Pow_Herwig7_cfg.py,1000
+#SingleLQ_umuLQumu_M2000_Lambda0p1,/afs/cern.ch/work/m/mcampana/Lepto/LQGen,/eos/cms/store/group/phys_exotica/lq-LQ-lq/GEN,singleLQ_13TeV_Pow_Herwig7_cfg.py,1000
+#SingleLQ_umuLQumu_M2000_Lambda1p0,/afs/cern.ch/work/m/mcampana/Lepto/LQGen,/eos/cms/store/group/phys_exotica/lq-LQ-lq/GEN,singleLQ_13TeV_Pow_Herwig7_cfg.py,1000
+#SingleLQ_umuLQumu_M3000_Lambda0p1,/afs/cern.ch/work/m/mcampana/Lepto/LQGen,/eos/cms/store/group/phys_exotica/lq-LQ-lq/GEN,singleLQ_13TeV_Pow_Herwig7_cfg.py,1000
+SingleLQ_umuLQumu_M3000_Lambda1p0,/afs/cern.ch/work/m/mcampana/Lepto/LQGen,/eos/cms/store/group/phys_exotica/lq-LQ-lq/GEN,singleLQ_13TeV_Pow_Herwig7_cfg.py,1000
